@@ -1,5 +1,6 @@
 #pragma once
 
+#include "cnp/function.hpp"
 #include "cnp/operator.hpp"
 #include "cnp/order.hpp"
 
