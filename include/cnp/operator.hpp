@@ -195,7 +195,7 @@ namespace cnp::ops
             { l >= r } -> std::same_as<bool>;
         };
 
-        template <typename Lhs, typename Rhs = Lhs, typename Ord>
+        template <typename Lhs, typename Rhs, typename Ord>
         concept ThreeWay = requires (Lhs l, Rhs r) {
             { l <=> r } -> std::same_as<Ord>;
         };
